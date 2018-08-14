@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<title>ForgetPassword</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content=""
+	/>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+</head>
+<body>
+	<div id="bg">
+		<canvas></canvas>
+		<canvas></canvas>
+		<canvas></canvas>
+	</div>
+	<h1>注册账号</h1>
+	<div class="sub-main-w3">
+		<form action="/Web-Html/RegisteredAction" method="post">
+			<h2>注册
+				<i class="fas fa-level-down-alt"></i>
+			</h2>
+			<div class="form-style-agile">
+				<label>
+					<i class="fas fa-user"></i>
+					输入用户名
+				</label>
+				<input  name="username" type="text" >
+			</div>
+			<div class="form-style-agile">
+				<label>
+					<i class="fas fa-unlock-alt"></i>
+					输入密码
+				</label>
+					<input  name="password" type="Password" >
+			</div>
+			<div class="form-style-agile">
+				<label>
+					<i class="fas fa-unlock-alt"></i>
+					再次输入密码
+				</label>
+				<input  name="passwordAgain" type="Password" >
+			</div>
+			<div class="form-style-agile">
+				<label>
+					<i class="fas fa-unlock-alt"></i>
+					输入手机号
+				</label>
+				<input  name="phonenumber" type="text" >
+			</div>
+		 <!--  <div class="form-style-agile">
+				<label>
+					<i class="fas fa-unlock-alt"></i>
+					手机验证码
+				</label>
+				<input placeholder="Verification" name="Verification" type="test" required="">
+			</div>
+			-->
+			<input type="submit" value="注册账号">
+		</form>
+	</div>
+	<div class="footer">
+		<p>Copyright xxxx 2018.Company name All rights reserved.</p>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/canva_moving_effect.js"></script>
+</body>
+</html>
